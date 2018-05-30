@@ -398,7 +398,7 @@ contains
 
        call t_startf('drvinit')
 
-       call UpdateDaylength(bounds_clump, declin)
+       call UpdateDaylength(bounds_clump, declin+9.0)
 
        ! Initialze variables needed for new driver time step 
        call clm_drv_init(bounds_clump, &
